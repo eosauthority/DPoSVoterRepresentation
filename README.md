@@ -13,4 +13,17 @@ In a DPoS blockchain, there is a `k` number of block producers who can produce b
 *Motivation of Justified Representation:* If there exists a group of coinholders of size at least `n/k`, who agree on at least `1` candidate, then each coinholder should have at least `1` representative in the elected block producers.
 
 ## Justified Representation Algorithm 
-...
+The algorithm to evaluate if a DPoS election satisfies justified representation can be found [here](https://github.com/Luker501/DPoSVoterRepresentation/blob/master/LookOnlyForJR.java). This algorithm operates using the following command:
+
+```
+java LookOnlyForJR.java <your_voting_data_csv_file> <your_block_producer_list_csv_file>
+```
+Note that:
+- `<your_voting_data_csv_file>` should be formatted like [so](https://github.com/Luker501/DPoSVoterRepresentation/blob/master/Example%20Data/eos_voting_data.csv). 
+- `<your_block_producer_list_csv_file>` should be formatted like [so](https://github.com/Luker501/DPoSVoterRepresentation/blob/master/Example%20Data/AllBPs.csv), where the column headings are `Producer Name, Number of Voters, Average Vote Size, Largest Vote Size, Total Vote Size, Median Vote Size, Avg BPs per Vote` 
+
+In this algorithm's code, you can:
+- adjust the `coinThreshold` to indicate that a voter must have at greater than this many coins before he is counted as a valid member of the electorate. 
+- adjust the `numberOfBPsVotedForThreshold` to indicate that a voter must vote for greater than this many block producers before he is counted as a valid member of the electorate.
+
+Finally, if the algorithm runs correctly, you will see a new file generated like [so](https://github.com/Luker501/DPoSVoterRepresentation/blob/master/Example%20Data/Analysed_eos_voting_data.csv) indicating whether the election has passed or failed the justified representation axiom, analysed from the perspective of individual voters or coinholders.
