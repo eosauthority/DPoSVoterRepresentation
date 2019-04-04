@@ -6,7 +6,7 @@ The idea of fair representation is based on the justified and extended justified
 
 ## Delegated Proof of Stake (DPoS) overview
 
-In a DPoS blockchain, there is a `math k` number of block producers who can produce blocks. These `math k` block producers can change over time through elections. In DPoS, there will be a set `math N = {1, 2, ..., n}` coinholders, where each coinholder `math i` can cast a ballot `math A_i` selecting an `math l` number of candidate block producers. The weight of a ballot `math w(A_i)` depends on the  
+In a DPoS blockchain, there is a `math k` number of block producers who can produce blocks. These `math k` block producers can change over time through elections. In DPoS, there will be a set $N = {1, 2, ..., n}$ coinholders, where each coinholder `math i` can cast a ballot `math A_i` selecting an `math l` number of candidate block producers. The weight of a ballot `math w(A_i)` depends on the  
 
 ## Justified Representation Axiom
 
