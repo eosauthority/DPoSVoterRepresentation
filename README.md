@@ -8,9 +8,9 @@ The idea of fair representation is based on the justified and extended justified
 
 In a DPoS blockchain, there is a `k` number of block producers who can produce blocks. These `k` block producers (the committee) can change over time through elections. In DPoS, there will be a set `N = {1, 2, ..., n}` coinholders, where each coinholder `i` can cast a ballot `A_i` selecting a `p` number of candidate block producers. The weight of a ballot `w(A_i)` depends on the number of coins `i \in N` has (usually 1 coin = 1 vote). We can describe the total amount of voting coins as the budget `b`. Then all of the ballots are counted and (usually) the `k` candidate block producers with the most votes become the elected block producers.
 
-## Justified Representation Axiom
+## Justified Representation
 
-There are multiple versions of the Justified Representation Axiom, which we present below. Note that [this paper](https://arxiv.org/abs/1407.8269) shows that there exist some elections that cannot provide a committee guaranteeing the elected block producers satisfy the Strong and Semi-Strong Justified Representation Axioms.
+There are multiple versions of the Justified Representation definition of committee that fairly represents the population, which we present below. Note that [this paper](https://arxiv.org/abs/1407.8269) shows that there exist some elections that cannot provide a committee guaranteeing the elected block producers satisfy the Strong and Semi-Strong Justified Representation fair representation definition.
 
 ### Strong Justified Representation Axiom
 
