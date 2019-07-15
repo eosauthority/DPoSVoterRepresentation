@@ -31,7 +31,7 @@ The algorithm to evaluate if a DPoS election satisfies justified representation 
 This algorithm operates using the following command:
 
 ```
-java LookOnlyForJR.java <your_voting_data_csv_file> <your_block_producer_list_csv_file>
+java LookOnlyForJR <your_voting_data_csv_file> <your_block_producer_list_csv_file>
 ```
 Note that:
 - `<your_voting_data_csv_file>` should be formatted like [so](https://github.com/Luker501/DPoSVoterRepresentation/blob/master/Example%20Data/eos_voting_data.csv). 
