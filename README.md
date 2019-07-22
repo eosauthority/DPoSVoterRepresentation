@@ -68,8 +68,4 @@ This algorithm operates using the following command:
 ```
 java LookForEJR <your_voting_data_csv_file_name> <your_block_producer_list_csv_file_name>
 ```
-
-
-## Notes
-
-Presentation is [here](https://docs.google.com/presentation/d/1rTHXWrsVhZQLD3_vixjb7qRhoj7InFbZr1pnLa_bqsk/edit?usp=sharing)
+The presentation describing the ideas behind this algorithm can be found [here](https://docs.google.com/presentation/d/1rTHXWrsVhZQLD3_vixjb7qRhoj7InFbZr1pnLa_bqsk/edit?usp=sharing)
