@@ -51,7 +51,7 @@ In this algorithm's code, you can:
 
 Finally, if the algorithm runs correctly, you will see a new file generated like [so](https://github.com/Luker501/DPoSVoterRepresentation/blob/master/Example%20Data/Analysed_eos_voting_data.csv) indicating whether the election has passed or failed the justified representation axiom, analysed from the perspective of individual voters or coinholders.
 
-##Extended Justified Representation
+## Extended Justified Representation
 
 There is only one version of the Extended Justified Representation definition of committee that fairly represents the population, as it extends the Justified Representation Axiom. This is so that there is always at least one committee available that satisfies the Extended Justified Representation axiom.
 
@@ -61,7 +61,13 @@ There is only one version of the Extended Justified Representation definition of
 
 ## Extended Justified Representation Algorithm
 
-Checking an elected committee satisfies Extended Justified Representation is a computationally hard problem (see Theorem 14 of [this paper](https://arxiv.org/pdf/1407.8269.pdf)). Therefore we have modified the approximation algorithm presented in Algorithm 1 of [this paper](https://fpt.akt.tu-berlin.de/publications/skowron_ejr_poly.pdf). We have modified it, firstly to adapt the theory allow a voter to have multiple votes (or coins) and secondly we have performed modifications to computationally optimise it.
+Checking an elected committee satisfies Extended Justified Representation is a computationally hard problem (see Theorem 14 of [this paper](https://arxiv.org/pdf/1407.8269.pdf)). Therefore we have modified the approximation algorithm presented in Algorithm 1 of [this paper](https://fpt.akt.tu-berlin.de/publications/skowron_ejr_poly.pdf). We have modified it, firstly to adapt the theory allow a voter to have multiple votes (or coins) and secondly we have performed modifications to computationally optimise it. Our theoretical modifications and formal description of the algorithm can be seen [here](https://github.com/Luker501/DPoSVoterRepresentation/blob/master/EJRTheoryAndAlgorithm.pdf)
+
+This algorithm operates using the following command:
+
+```
+java LookForEJR <your_voting_data_csv_file_name> <your_block_producer_list_csv_file_name>
+```
 
 
 ## Notes
