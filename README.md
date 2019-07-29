@@ -36,8 +36,8 @@ This algorithm operates using the following command:
 java LookOnlyForJR <your_voting_data_csv_file_name> <your_block_producer_list_csv_file_name>
 ```
 Note that:
-- `<your_voting_data_csv_file>` should be formatted like [so](https://github.com/Luker501/DPoSVoterRepresentation/blob/master/Example%20Data/eos_voting_data.csv). 
-- `<your_block_producer_list_csv_file>` should be formatted like [so](https://github.com/Luker501/DPoSVoterRepresentation/blob/master/Example%20Data/AllBPs.csv), where the column headings are `Producer Name, Number of Voters, Average Vote Size, Largest Vote Size, Total Vote Size, Median Vote Size, Avg BPs per Vote` 
+- `<your_voting_data_csv_file>` should be formatted like [so](https://github.com/Luker501/DPoSVoterRepresentation/blob/master/Example%20Data/eos_voting_data.csv). This particular example voting data file was for the EOS blockchain and taken from the block producer candidate EOSAuthority's webpage [here](https://eosauthority.com/voting_analytics) as a downloadable csv file.
+- `<your_block_producer_list_csv_file>` should be formatted like [so](https://github.com/Luker501/DPoSVoterRepresentation/blob/master/Example%20Data/AllBPs.csv), where the column headings are `Producer Name, Number of Voters, Average Vote Size, Largest Vote Size, Total Vote Size, Median Vote Size, Avg BPs per Vote`. This particular example block producer candidate list file was for the EOS blockchain and taken from the block producer candidate EOSAuthority's webpage [here](https://eosauthority.com/voting_analytics) by copying the contents of the 'Overall BP Voting Stats' table. 
 
 For instance, to run the algorithm for the two linked example files above, you would type (as long as all files are in the same folder):
 
