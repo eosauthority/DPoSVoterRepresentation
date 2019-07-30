@@ -1,55 +1,32 @@
 The results after analysing eos_voting_data are:
 
-Justified Representation Voter Pass = ,true
-Justified Representation Coin Pass = ,true
-BP Number, UserCount, CoinCount
-0, 2298, 3363596.9132000217
-1, 3173, 8047586.352899881
-2, 2890, 1.8961806651299972E7
-3, 2362, 8723897.435599845
-4, 2129, 1970678.9852999994
-5, 1826, 1.4872544783499883E7
-6, 1513, 3697887.7821000204
-7, 2409, 2.463352757519981E7
-8, 5357, 2.1457028710899353E7
-9, 2563, 5.800590421640055E7
-10, 3185, 2.8622856125900112E7
-11, 1037, 1.3451545836899942E7
-12, 1005, 1.8809715957200043E7
-13, 742, 2.0428720907300007E7
-14, 839, 3853472.558500004
-15, 970, 1.0914894109399956E7
-16, 731, 3510230.232800007
-17, 536, 377229.64520000026
-18, 476, 402024.9932000008
-19, 660, 611519.154299998
-20, 405, 359998.0569999996
-21, 131, 168892.6816999999
+Extended Justified Representation Coin Pass = ,false
+Number of swaps = ,16
+Final Committee Ids = ,[0, 1, 2, 3, 4, 20, 6, 7, 8, 9, 10, 11, 17, 34, 14, 15, 16, 31, 27, 25, 24]
+PAV score = ,8.324669821030049E8
+Committee names = , starteosiobp, eoshuobipool, newdex.bp, big.one, eoslaomaocom, bitfinexeos1, eosflytomars, atticlabeosb, hoo.com, eosinfstones, eosdotwikibp, eosiomeetone, slowmistiobp, cypherglasss, eoscannonchn, eosasia11111, eosbeijingbp, eoscafeblock, eosauthority, eosnewyorkio, eos42freedom
+
 
 Total Voters, Total Voting Coins
-37237, 2.652455596657758E8
+585207, 3.939838931246317E8
 
 
 Voters Using Proxy, Total Proxied Coins
-8632, 1.5764554459289294E8
+0, 0.0
 
 
 Voters Directly Voting, Total Direct Voted Coins
-28605, 1.0760001507288286E8
-
-
-Voters with a rep, Coins with a rep, Perc of voters with no rep, Perc of coins with no rep
-34939, 2.6188196275257578E8, 0.061712812525176575, 0.012681067752607588
+585207, 3.939838931246317E8
 
 
 Non Voters, Non Voting Coins
-407365, 2.2274476139975914E8
+1, 9.019999001E7
 
 
 Voters Under Threshold, Voting Coins Under Threshold
-487, 0.0
+9911, 0.0
 
 
 Total Users, Total User Coins
-444602, 4.8799032106553495E8
+585208, 4.841838831346317E8
 
